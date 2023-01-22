@@ -1,0 +1,55 @@
+
+********************************* Online Question Duplication Demo ******************************************
+
+Installing modules...
+-------------------------------------------------------------------------------------------------------------
+
+-====================          _ _                  _ _
+||                  ||        |   \                /   |
+||   ================         |    \              / /| |
+||  ||                        | |\  \            / / | |
+||  ||                        | | \  \          / /  | |
+||  ||                        | |  \  \        / /   | |
+||  ||                        | |   \  \      /	/    | |
+||  =================         | |    \  \    / /     | |
+||                  ||        | |     \  \  / /      | |
+||   ================         | |      \  \/ /       | |
+||  ||                        | |       \   /        | |
+||  ||                        | |        ---         | |
+||  ||                        | |                    | |
+||  ||                        | |                    | |
+||   ================         | |                    | |
+||                   ||       | |                    | |
+ -===================         |_|                    |_|
+
+[nltk_data] Downloading package wordnet to /home/vikram/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+[nltk_data] Downloading package punkt to /home/vikram/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package omw-1.4 to /home/vikram/nltk_data...
+[nltk_data]   Package omw-1.4 is already up-to-date!
+[nltk_data] Downloading package wordnet to /home/vikram/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+[nltk_data] Downloading package punkt to /home/vikram/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+2023-01-22 16:01:48.610396: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-01-22 16:01:49.622439: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory
+2023-01-22 16:01:49.622556: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory
+2023-01-22 16:01:49.622569: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+[nltk_data] Downloading package omw-1.4 to /home/vikram/nltk_data...
+[nltk_data]   Package omw-1.4 is already up-to-date!
+[nltk_data] Downloading package wordnet to /home/vikram/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+[libprotobuf ERROR external/com_google_protobuf/src/google/protobuf/text_format.cc:324] Error parsing text-format research_scann.ScannConfig: 25:20: Integer out of range (2)
+2023-01-22 16:01:58.573677: I scann/partitioning/partitioner_factory_base.cc:59] Size of sampled dataset for training partition: 2530
+2023-01-22 16:01:58.633580: I ./scann/partitioning/kmeans_tree_partitioner_utils.h:88] PartitionerFactory ran in 59.782652ms.
+-------------------------------------------------------------------------------------------------------------
+Modules installed successfully!
+
+Enter the question : Running on local URL:  http://127.0.0.1:7861
+Running on public URL: https://8c84df97-ac30-40ca.gradio.live
+
+This share link expires in 72 hours. For free permanent hosting and GPU upgrades (NEW!), check out Spaces: https://huggingface.co/spaces
+Keyboard interruption in main thread... closing server.
+Killing tunnel 127.0.0.1:7861 <> https://8c84df97-ac30-40ca.gradio.live
